@@ -8,3 +8,19 @@ Serangan jantung terjadi karena terhambatnya aliran darah ke otot jantung dimana
 Dilansir dari [WHO](https://www.who.int/en/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)), serangan jantung termasuk dari Cardiovasicular Diseases(CVDs) atau penyakit jantung yang banyak merenggut korban jiwa secara global dengan estimasi 17,9 juta jiwa orang meninggal disebabkan oleh CVDs pada tahun 2019, mewakili 32% dari jumlah kematian global di tahun tersebut, 85% diantaranya karena serangan jantung dan stroke.
 
 Sehingga berdasarkan uraian latar belakang tersebut dibuatlah pengerjaan proyek machine learning ini dengan cakupan domain untuk memprediksi kemungkinan serangan jantung berdasarkan hasil ujian pasien.
+
+## Business Understanding
+
+### Problem Statements
+
+Menjelaskan pernyataan masalah latar belakang:
+- Pernyataan Masalah 1
+- Pernyataan Masalah 2
+- Pernyataan Masalah n
+
+### Goals
+
+Menjelaskan tujuan dari pernyataan masalah:
+- Jawaban pernyataan masalah 1
+- Jawaban pernyataan masalah 2
+- Jawaban pernyataan masalah n
