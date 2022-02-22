@@ -10,7 +10,7 @@ Dilansir dari [WHO](https://www.who.int/en/news-room/fact-sheets/detail/cardiova
 Sehingga berdasarkan uraian latar belakang tersebut dibuatlah pengerjaan proyek machine learning ini dengan cakupan domain untuk memprediksi kemungkinan serangan jantung berdasarkan hasil ujian pasien.
 
 ## Business Understanding
-Dalam rangka mengatasi permasalahan serangan jantung yang merenggut banyak kematian secara global seorang ilmuwan data ingin membuat sebuah sistem yang dapat memprediksi kemungkinan seseorang terkena serangan jantung sehingga penderita penyakit jantung bisa mendapatkan penanganan, Ia lalu bekerja sama dengan rumah sakit untuk mensupplynya dengan data-data berkaitan dengan penyebab-penyebab umum yang biasa mempengaruhi serangan jantung.  Rumah sakit pun mengirimkan data tersebut dalam bentuk fitur-fitur yang kemudian harus dinalisa lebih lanjut oleh sang ilmuwan.  Ada sekitar 13 fitur yang diberikan dan semuanya telah diubah kedalam bentuk numerikal sehingga memudahkan proses analisa.
+Dalam rangka mengatasi permasalahan serangan jantung yang merenggut banyak kematian secara global seorang ilmuwan data ingin membuat sebuah sistem yang dapat memprediksi kemungkinan seseorang terkena serangan jantung sehingga penderita penyakit jantung bisa mendapatkan penanganan, Ia lalu bekerja sama dengan rumah sakit untuk mensupplynya dengan data-data berkaitan dengan penyebab-penyebab umum yang biasa mempengaruhi serangan jantung.  Rumah sakit pun mengirimkan data tersebut dalam bentuk fitur-fitur yang kemudian harus dinalisa lebih lanjut oleh sang ilmuwan, dimana ada total 11 fitur yang kemudian harus diproses lebih lanjut.
 
 ### Problem Statements
 
