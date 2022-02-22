@@ -30,3 +30,22 @@ Untuk mencapai goals yang telah ditetapkan sebelumnya, sang ilmuwan merumuskan s
 - Melakukan perbandingan antara beberapa algoritma serta hyperparameter tuning jika base model masih kurang baik performanya
 
 ## Data Understanding
+Data yang digunakan pada proyek ini adalah dataset Heart Attack Analysis yang dapat diunduh dari [Kaggle](https://www.kaggle.com/fedesoriano/heart-failure-prediction).  Menurut authornya dataset ini merupakan dataset analisis jantung yang terbesar karena telah mengkombinasikan dari beberapa dataset jantung lain yang telah ada sebelumnya seperti sehingga memiliki jumlah data final sebanyak 918 data unik.
+
+### Variabel-variabel pada dataset Heart Attack Analysis adalah sebagai berikut:
+- Age: merupakan umur pasien dalam tahun
+- Sex: merupakan gender dari pasien [M: Male, F: Female]
+- ChestPainType: merupakan tipe-tipe sakit pada dada pasien [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
+- RestingBP: merupakan tekanan darah pasien saat kondisi resting [mm Hg]
+- Cholesterol: merupakan jumlah serum kolesterol [mm/dl]
+- FastingBS: merupakan hasil tes darah setelah puasa sepanjang malam hingga dites [1: jika hasil > 120 mg/dl, 0: jika sebaliknya]
+- RestingECG: merupakan hasil dari tes electrocardiogram  [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
+- MaxHR: merupakan detak jantung maksimal yang pernah dicapai [60~202]
+- ExerciseAngina: merupakan latihan yang dipengaruhi angina(gangguan/rasa tidak enak pada dada) [Y: Yes, N: No]
+- Oldpeak: merupakan nilai numerik untuk mengukur depresi
+- ST_Slope: merupakan kemiringan saat menjalan segmen latihan ST [Up: upsloping, Flat: flat, Down: downsloping]
+- HeartDisease: merupakan label kategori biner yang mengeluarkan 1: apabila memiliki penyakit jantung, dan 0: apabila sebaliknya
+
+Untuk memahami data lebih lanjut telah dilakukan bebera analisis seperti univariate analysis, multivariate analysis, dan beberapa visualisasi pada notebook colab.
+
+## Data Preparation
