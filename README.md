@@ -14,14 +14,19 @@ Dalam rangka mengatasi permasalahan serangan jantung yang merenggut banyak kemat
 
 ### Problem Statements
 
-Menjelaskan pernyataan masalah latar belakang:
+Berdasarkan latar belakang yang telah diuraikan, sang ilmuwan tersebut menyimpulkan beberap rumusan masalah sebagai berikut:
 - Dari serangkaian fitur yang ada, fitur apa yang paling berpengaruh terhadap kemungkinan pasien terkena serangan jantung?
 - Bagaimana cara mengetahui kemungkinan pasien lebih mungkin terkena serangan jantung atau tidak berdasarkan fitur-fitur tertentu?
 
 ### Goals
 
-Menjelaskan tujuan dari pernyataan masalah:
+Untuk menjawab pertanyaan tersebut, sang ilmuwan tersebut membuat model klasifikasi dengan goals sebagai berikut:
 - Mengetahui fitur yang paling berpengaruh terhapdap kemungkinan pasien terkena serangan jantung
-- Membuat model machine learning dengan membandingkan beberapa algoritma hingga menjadi model yang seakurat mungkin
+- Membuat model machine learning yang dapat mengklasifikasikan apakah fitur-fitur yang dimiliki suatu pasien cenderung lebih mungkin terkena serangan jatung atau tidak
+
+### Solution Statement
+Untuk mencapai goals yang telah ditetapkan sebelumnya, sang ilmuwan merumuskan solusi sebagai berikut:
+- Melakukan explarotary data analysis untuk mengamati keterkaitan antara fitur dengan label yang telah ditetapkan
+- Melakukan perbandingan antara beberapa algoritma serta hyperparameter tuning jika base model masih kurang baik performanya
 
 ## Data Understanding
