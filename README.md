@@ -50,8 +50,18 @@ Untuk memahami data lebih lanjut telah dilakukan bebera analisis seperti univari
 
 ## Data Preparation
 1. Menangani fitur kategorikal
+
 Pada dataset ini terkandung beberapa data yang bersifat kategorikal dan masih berbentuk objek sehingga sang ilmuwan perlu menangani hal ini dengan cara mengubahnya menjadi data numerik sehingga dapat dipahami oleh komputer.  Selain itu teknik yang digunakan untuk mengubah data kategorikal tersebut yaitu teknik label encoding, karena sang ilmuwan ingin melakukan eksperimen pembuatan model menggunakan algoritma tree dan setelah membaca beberapa literasi terkait teknik label encoding lebih bagus pada kasus seperti ini salah satunya karena membutuhkan lebih sedikit disk spaces.
+
 2. Membagi data latih dengan data uji
+
 Melakukan pembagian antara data latih dan data uji untuk keperluan melatih model nantinya.  Pembagian data latih dan uji ini menggunakan rasio 80:20 karena keseluruhan data tidak begitu banyak jumlahnya (<1000) dan rasio ini dirasa cukup ideal.
+
 3. Standarisasi data latih
+
 Melakukan standarisasi pada fitur numerik untuk membuat fitur data menjadi betuh yang lebih mudah diolah oleh algoritma.  Untuk menghindari kebocoran informasi pada data uji, sang ilmuwan hanya akan menerapkan fitur standarisasi pada data latih dan melakukan standarisasi pada data uji saat tahap evaluasi.
+
+## Modelling
+Pada proyek ini sang ilmuwan memutuskan untuk menggunakan 3 algoritma berbasis tree yaitu decision tree, random forest, dan xg boost yang akan dijelaskan lebih lanjut pada pembhasan dibawah ini.
+
+
