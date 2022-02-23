@@ -555,7 +555,7 @@ xgb_grid_recall = recall_score(y_test, y_pred)
 
 XGB_grid.best_estimator_.feature_importances_
 
-XGB_feature_imp = pd.DataFrame(index=X.columns, data=XGB_grid.best_estimator_.feature_importances_, columns=["Feature Importance"])
+XGB_feature_imp = pd.DataFrame(index=X.columns, data=XGB_grid.best_estimator_.feature_importances_, columns=["Feature Importance"]) 
 XGB_feature_imp = XGB_feature_imp.sort_values("Feature Importance")
 
 XGB_feature_imp
@@ -610,5 +610,6 @@ labels(ax)
 plt.show()
 
 """## Conclusion
-Based on the 3 tree models that we have created, it seems that decision tree models fits best on this classification case with an average accuracy of 89% beating the other 2 models.
+Based on the 3 tree models that we have created, it seems that XGBoost have the best overall accuracy : recall ratio compared to random forest with recall rate of 87% and accuracy of 81%.
 """
+
