@@ -119,4 +119,21 @@ Juga merupakan sebuah algoritma berbasis tree dengan metode ensemble learning na
 Setelah melakukan eksperimen baik dengan base model dan setelah melakukan tuning parameter menggunakan teknik grid search yang jadi model terbaik dari segi rasio keseimbangan antara metriks yang digunakan untuk mengevaluasi adalah model XGBoost dimana metriks yang digunakan akan dibahas pada bab evaluation.
 
 ## Evaluation
-Untuk mengevaluasi masing-masing model sang ilmuwan menggunakan 2 metriks diantaranya adalah accuracy, recall.
+Untuk mengevaluasi masing-masing model sang ilmuwan menggunakan 2 metriks diantaranya adalah accuracy, dan recall dimana akan dijelaskan lebih lanjut dibawah ini.
+
+### Accuracy
+Akurasi merupakan metriks yang mengukur rasio prediksi benar baik positif dan negatif dari keseluruhan data dimana metriks ini sangat umum digunakan pada proyek machine learning. Cara mengukur akurasi yaitu menggunakan rumus sebagai berikut:
+
+**Akurasi = (TP + TN) / (TP + FP + FN + TN)**
+
+### Recall
+Recall merupakan rasio prediksi benar positif dibandingkan dengan keseluruhan data yang benar positif.  Cara mengukur metriks recall yaitu menggunakan rumus sebagai berikut:
+
+**Recall = (TP) / (TP + FN)**
+
+Sang ilmuwan menggunakan metriks ini sebagai acuan utama lainya karena lebih baik model memprediksi pasien benar memiliki penyakit jantung walaupun sebenarnya tidak daripada sebaliknya.
+
+<img src="https://raw.githubusercontent.com/blitzkz23/heart-failure-predictive-analysis/main/img/eval.png?token=GHSAT0AAAAAABLXGRRTDOQG3TM5UC65WC6OYQ7HQYQ" alt="project"/> </img>
+
+Berdasarkan evaluasi akhir proyek pada gambar diatas algoritma XGBoost lah yang merupakan model terbaik dengan rasio recall : accuracy terbaik sebesar 87% : 81% diikuti oleh algoritma random forest
+
