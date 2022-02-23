@@ -26,7 +26,7 @@ Untuk menjawab pertanyaan tersebut, sang ilmuwan tersebut membuat model klasifik
 
 ### Solution Statement
 Untuk mencapai goals yang telah ditetapkan sebelumnya, sang ilmuwan merumuskan solusi sebagai berikut:
-- Melakukan explarotary data analysis untuk mengamati keterkaitan antara fitur dengan label yang telah ditetapkan
+- Melakukan explarotary data analysis untuk mengamati keterkaitan antara fitur dengan label yang telah ditetapkan, dan melakukan validasi dengan melihat hasil evaluasi dari tiap fitur penting dari masing-masing model
 - Melakukan perbandingan antara beberapa algoritma serta hyperparameter tuning jika base model masih kurang baik performanya
 
 ## Data Understanding
@@ -49,19 +49,55 @@ Data yang digunakan pada proyek ini adalah dataset Heart Attack Analysis yang da
 Untuk memahami data lebih lanjut telah dilakukan bebera analisis seperti univariate analysis, multivariate analysis, dan beberapa visualisasi pada notebook colab.
 
 ## Data Preparation
-1. Menangani fitur kategorikal
+**Menangani fitur kategorikal**
 
 Pada dataset ini terkandung beberapa data yang bersifat kategorikal dan masih berbentuk objek sehingga sang ilmuwan perlu menangani hal ini dengan cara mengubahnya menjadi data numerik sehingga dapat dipahami oleh komputer.  Selain itu teknik yang digunakan untuk mengubah data kategorikal tersebut yaitu teknik label encoding, karena sang ilmuwan ingin melakukan eksperimen pembuatan model menggunakan algoritma tree dan setelah membaca beberapa literasi terkait teknik label encoding lebih bagus pada kasus seperti ini salah satunya karena membutuhkan lebih sedikit disk spaces.
 
-2. Membagi data latih dengan data uji
+**Membagi data latih dengan data uji**
 
 Melakukan pembagian antara data latih dan data uji untuk keperluan melatih model nantinya.  Pembagian data latih dan uji ini menggunakan rasio 80:20 karena keseluruhan data tidak begitu banyak jumlahnya (<1000) dan rasio ini dirasa cukup ideal.
 
-3. Standarisasi data latih
+**Standarisasi data latih**
 
 Melakukan standarisasi pada fitur numerik untuk membuat fitur data menjadi betuh yang lebih mudah diolah oleh algoritma.  Untuk menghindari kebocoran informasi pada data uji, sang ilmuwan hanya akan menerapkan fitur standarisasi pada data latih dan melakukan standarisasi pada data uji saat tahap evaluasi.
 
 ## Modelling
-Pada proyek ini sang ilmuwan memutuskan untuk menggunakan 3 algoritma berbasis tree yaitu decision tree, random forest, dan xg boost yang akan dijelaskan lebih lanjut pada pembhasan dibawah ini.
+Pada proyek ini sang ilmuwan memutuskan untuk menggunakan 3 algoritma berbasis tree yaitu Decision Tree, Random Forest, dan XG Boost yang akan dijelaskan lebih lanjut pada pembahasan dibawah ini.
 
+**Decision Tree**
+
+Merupakan sebuah algoritma predictive modelling berbasis tree yang biasa digunakan pada kasus data mining dan machine learning.  Pada kasus klasifikasi membagi-membagi datasetnya berdasarkan fitur yang ingin diklasifikasikan mulai dari fitur terpenting akan menjadi root dan terbelah lagi kebawah menyesuaikan fitur-fitur penting lainnya dan pembelahan ini juga tergantung pada parameter model seperti kedalaman, dan sample pembelahan minimal.
+
+- Kelebihan: 
+
+1. Membutuhkan usaha yang sedikit dalam tahap data preparation timbang algoritma lainnya
+2. Tidak membutuhkan normalisasi dan scaling untuk dapat berfungsi baik
+3. Model yang sangat intuitif dan mudah dijelaskan kepada tim teknikal dan stakeholder
+
+
+- Kekurangan:
+
+1. Perubahan yang kecil pada data dapat menimbulkan perubahan struktur yang cukup signifikan pada model pohon
+2. Perhitungan dapat lebih komplex dibandingkan algoritma lainnya
+3. Relatif mahal berdasarkan kompleksitas waktu
+
+**Random Forest**
+
+Merupakan sebuah algoritma
+
+- Kelebihan:
+
+
+- Kekurangan:
+
+
+**XGBoost**
+
+Merupakan sebuah algoritma
+
+- Kelebihan:
+
+- Kekurangan: 
+
+## Evaluation
 
