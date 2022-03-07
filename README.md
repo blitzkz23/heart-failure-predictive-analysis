@@ -133,7 +133,7 @@ Recall merupakan rasio prediksi benar positif dibandingkan dengan keseluruhan da
 
 Sang ilmuwan menggunakan metriks ini sebagai acuan utama lainya karena lebih baik model memprediksi pasien benar memiliki penyakit jantung walaupun sebenarnya tidak daripada sebaliknya.
 
-<img src="https://raw.githubusercontent.com/blitzkz23/heart-failure-predictive-analysis/main/img/eval.png?token=GHSAT0AAAAAABLXGRRTDOQG3TM5UC65WC6OYQ7HQYQ" alt="project"/> </img>
+<img src="https://raw.githubusercontent.com/blitzkz23/heart-failure-predictive-analysis/main/img/eval.png?token=GHSAT0AAAAAABLXGRRTZAADW64JCWKNKMNUYROY5ZQ" alt="project"/> </img>
 
 Berdasarkan evaluasi akhir proyek pada gambar diatas algoritma XGBoost lah yang merupakan model terbaik dengan rasio recall : accuracy terbaik sebesar 87% : 81% diikuti oleh algoritma random forest
 
